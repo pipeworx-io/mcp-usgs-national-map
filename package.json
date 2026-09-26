@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-usgs-national-map",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "USGS The National Map (TNM) Access API MCP",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-1c56248531ff8b2ff3d8501f907eda044f1bf4926a559b49070690b4852e7ecd",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-011bd4cf03ff976a81c28c5f8eb3e50c1858d157a6b738dc8727947a9e22e0b7",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }

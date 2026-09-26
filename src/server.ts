@@ -9,7 +9,7 @@ import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprot
 import pack from './index.js';
 
 const server = new Server(
-  { name: '@pipeworx/mcp-usgs-national-map', version: '0.1.0' },
+  { name: '@pipeworx/mcp-usgs-national-map', version: '0.1.1' },
   { capabilities: { tools: {} } },
 );
 

@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/usgs-national-map",
   "title": "Usgs National Map",
   "description": "USGS The National Map (TNM) Access API MCP",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/usgs-national-map",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-usgs-national-map",
