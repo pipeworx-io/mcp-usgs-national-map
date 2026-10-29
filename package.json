@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-usgs-national-map",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "USGS The National Map (TNM) Access API MCP",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-usgs-national-map": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "usgs-national-map"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-usgs-national-map.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/usgs-national-map",
   "pipeworx": {
-    "sourceHash": "v1-011bd4cf03ff976a81c28c5f8eb3e50c1858d157a6b738dc8727947a9e22e0b7",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "mode": "gateway",
+    "slug": "usgs-national-map",
+    "gatewaySlug": "usgs-national-map",
+    "sourceHash": "v1-695a16d2f227adaf9d77227ab7d32eeca7edc86dec33a3333a251f88831db74f",
+    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
   }
 }
