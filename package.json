@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-usgs-national-map",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "USGS The National Map (TNM) Access API MCP",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "usgs-national-map",
     "gatewaySlug": "usgs-national-map",
-    "sourceHash": "v1-695a16d2f227adaf9d77227ab7d32eeca7edc86dec33a3333a251f88831db74f",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-6104b27c9d778c8d42ce55c64ad087fdb6ffb608915055c0dacdf4dbe10b9e1c",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }
